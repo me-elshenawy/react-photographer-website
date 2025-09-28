@@ -1,4 +1,0 @@
-npm init -y
-npm i json-server
-"start": "json-server data.json -p 3005 -w"
-npm start

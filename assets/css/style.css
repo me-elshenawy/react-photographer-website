@@ -1,0 +1,168 @@
+/* General body styling from old style.css */
+body {
+  font-family: Arial, sans-serif;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+/* Styles from new styles.css file */
+.bg-gradient {
+    background: linear-gradient(135deg, #232f3e, #131921) !important;
+}
+
+.main-image {
+    height: 400px;
+    overflow: hidden;
+}
+
+.main-image img {
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s;
+}
+
+.main-image img:hover {
+    transform: scale(1.05);
+}
+
+.thumbnail {
+    width: 80px;
+    height: 80px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: 3px solid transparent;
+    transition: all 0.3s;
+    object-fit: cover;
+}
+
+.thumbnail.active,
+.thumbnail:hover {
+    border-color: #ff9900;
+    transform: scale(1.1);
+}
+
+/* Color Options */
+.color-option {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 3px solid transparent;
+    transition: all 0.3s;
+}
+
+.color-option.active,
+.color-option:hover {
+    border-color: #ff9900;
+    transform: scale(1.1);
+}
+
+/* Cart Item Styles */
+.cart-item {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.cart-item:last-child {
+    border-bottom: none;
+}
+
+.cart-item-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 8px;
+    object-fit: cover;
+    margin-right: 1rem;
+}
+
+.cart-item-info {
+    flex-grow: 1;
+}
+
+.cart-item-quantity {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-right: 1rem;
+}
+
+.cart-item-quantity .form-control {
+    width: 60px;
+}
+
+.cart-item-price {
+    font-weight: bold;
+    color: #0d6efd;
+    min-width: 80px;
+    text-align: right;
+    margin-right: 1rem;
+}
+
+.cart-item-actions {
+    display: flex;
+    gap: 0.5rem;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .cart-item {
+        flex-wrap: wrap;
+    }
+    
+    .cart-item-info {
+        width: calc(100% - 96px);
+    }
+    
+    .cart-item-quantity,
+    .cart-item-price,
+    .cart-item-actions {
+        width: 100%;
+        margin-top: 1rem;
+        justify-content: space-between;
+    }
+}
+
+/* =================================
+   Footer Detailed Styles
+   ================================= */
+.footer-detailed {
+  background-color: #232f3e !important; /* A slightly lighter shade of dark for the footer */
+  color: #DDD;
+}
+
+.footer-detailed h6 {
+  color: #FFF;
+  font-weight: 700;
+}
+
+.footer-detailed p {
+  margin-bottom: 0.75rem;
+}
+
+.footer-detailed a.text-white-50 {
+  color: #DDD !important; /* Make links brighter */
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.footer-detailed a.text-white-50:hover {
+  color: #ff9900 !important; /* Amazon's orange/yellow color */
+  text-decoration: underline;
+}
+
+.footer-detailed hr {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-detailed .navbar-brand {
+    color: #fff;
+    transition: color 0.2s ease-in-out;
+}
+
+.footer-detailed .navbar-brand:hover {
+    color: #ff9900;
+}
