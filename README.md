@@ -93,7 +93,7 @@ The project follows a logical and organized structure to keep the code clean and
 Mahmoud Elshenawy
 
 *   **GitHub:** [@me-elshenawy](https://github.com/me-elshenawy)
-*   **LinkedIn:** [mahmoud-elshenawy](https://www.linkedin.com/in/mahmoud-elshenawy-05711622a/)
+*   **LinkedIn:** [mahmoud-elshenawy](https://www.linkedin.com/in/mahmoud-shenawy/)
 
 ---
 
