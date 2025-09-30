@@ -4,7 +4,7 @@ A modern, fully responsive, and single-page application (SPA) portfolio website 
 
 **Live Demo:** [https://react-photographer-website.netlify.app/](https://react-photographer-website.netlify.app/)
 
-![Photosen Project Screenshot](https://i.ibb.co/L5hS5h7/photosen-website.png)
+![Photosen Project Screenshot](https://cdn.corenexis.com/files/b/3693713168.png)
 
 ## 📋 About The Project
 
